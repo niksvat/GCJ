@@ -44,6 +44,10 @@ class Solution{
                 long a = (y[i2]-y[i1]);
                 long b = (x[i2]-x[i1]);
 
+                // y = mx + c
+                // y = (a/b)x + c
+                // bc = by - ax ==> calculate this and check this for every point for current slope to see how many points coexist in line with current slope
+                
                 HashMap<Long, Integer> count = new HashMap<>();    
 
                 for(int i=0;i<n;i++){
